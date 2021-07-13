@@ -1,0 +1,40 @@
+@media only screen and (min-width : 981px) and (max-width :1240px) {
+     .divmain{width:980px}
+	 
+}
+
+@media only screen and (min-width : 768px) and (max-width :980px) {
+	  body{min-width: 980px;}
+	 .divmain{width:98%}
+	
+	 
+}
+
+@media only screen and (min-width : 601px) and (max-width :767px) {
+	 body{min-width: 767px;}
+	 .divmain{width:98%}
+	
+	
+}
+@media only screen and (min-width : 481px) and (max-width :600px) {
+	  body{min-width: 600px;}
+	 .divmain{width:98%}
+	 
+	
+}
+@media only screen and (min-width : 0px) and (max-width :480px) {
+
+	 body{min-width: 480px;}
+	 .divmain{width:98%}
+	
+	 
+}
+
+
+
+
+
+
+
+
+
