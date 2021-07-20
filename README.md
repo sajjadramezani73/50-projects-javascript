@@ -3,7 +3,3 @@
 # Projects List
 
 1. Expanding Cards
-
-2. asdasd
-
-3. sajjad

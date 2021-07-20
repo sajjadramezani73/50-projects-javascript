@@ -123,30 +123,3 @@ a{text-decoration:none}
 .fs-3_9{font-size: 3.9rem;}
 .fs-4{font-size: 4rem;}
 
-.wrapper {
-	height: 100vh;
-}
-
-.s1 {
-	height: 300px;
-	background: red;
-}
-
-.s2 {
-	width: 100px;
-	height: 100px;
-	background: green;
-}
-
-.s3 {
-	width: 100px;
-	height: 100px;
-	background: yellow;
-}
-
-.box {
-	width: 200px;
-	height: 200px;
-	margin-bottom: 10px;
-	background: red;
-}
