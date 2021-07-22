@@ -132,7 +132,27 @@ a{text-decoration:none}
 }
 
 .wrapper .gallery {
+	width: 80vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.gallery .div-pic {
+	flex: 0.5;
+	height: 80vh;
+	border-radius: 50px;
+	margin: 0px 10px;
+	overflow: hidden;
+	transition: all 0.7s ease-in; 
+}
+
+.gallery .div-pic img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.gallery .div-pic.active {
+	flex: 5;
 }
