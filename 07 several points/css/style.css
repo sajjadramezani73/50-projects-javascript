@@ -1,0 +1,170 @@
+/*** Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)* http://w3tms.com*/html, body, div, span, applet, object, iframe ,p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, sub, sup, tt, var , center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed,figure, figcaption, footer, header, hgroup,menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}body {line-height: 1;}ol, ul {list-style: none;}blockquote, q {quotes: none;}blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}table {border-collapse: collapse;border-spacing: 0;}
+/************************************ font ****************************/
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 900;
+	src: url('fonts/eot/IRANSansWeb_Black.eot');
+	src: url('fonts/eot/IRANSansWeb_Black.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/IRANSansWeb_Black.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/IRANSansWeb_Black.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/ttf/IRANSansWeb_Black.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: bold;
+	src: url('fonts/eot/IRANSansWeb_Bold.eot');
+	src: url('fonts/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/IRANSansWeb_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/IRANSansWeb_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 500;
+	src: url('fonts/eot/IRANSansWeb_Medium.eot');
+	src: url('fonts/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/IRANSansWeb_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/IRANSansWeb_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 300;
+	src: url('fonts/eot/IRANSansWeb_Light.eot');
+	src: url('fonts/eot/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/IRANSansWeb_Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/IRANSansWeb_Light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/ttf/IRANSansWeb_Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 200;
+	src: url('fonts/eot/IRANSansWeb_UltraLight.eot');
+	src: url('fonts/eot/IRANSansWeb_UltraLight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/IRANSansWeb_UltraLight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/IRANSansWeb_UltraLight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/ttf/IRANSansWeb_UltraLight.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/eot/IRANSansWeb.eot');
+	src: url('fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/ttf/IRANSansWeb.ttf') format('truetype');
+}
+/************************************ font ****************************/
+body{
+	font-family:IRANSans;
+	direction: rtl;
+}
+a{text-decoration:none}
+.clear{clear:both}
+* {
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+}
+
+.fw-100{font-weight: 100;}
+.fw-200{font-weight: 200;}
+.fw-300{font-weight: 300;}
+.fw-400{font-weight: 400;}
+.fw-500{font-weight: 500;}
+.fw-600{font-weight: 600;}
+.fw-700{font-weight: 700;}
+.fw-800{font-weight: 800;}
+.fw-900{font-weight: 900;}
+.fs-0_1{font-size: 0.1rem;}
+.fs-0_2{font-size: 0.2rem;}
+.fs-0_3{font-size: 0.3rem;}
+.fs-0_4{font-size: 0.4rem;}
+.fs-0_5{font-size: 0.5rem;}
+.fs-0_6{font-size: 0.6rem;}
+.fs-0_7{font-size: 0.7rem;}
+.fs-0_8{font-size: 0.8rem;}
+.fs-0_9{font-size: 0.9rem;}
+.fs-1{font-size: 1rem;}
+.fs-1_1{font-size: 1.1rem;}
+.fs-1_2{font-size: 1.2rem;}
+.fs-1_3{font-size: 1.3rem;}
+.fs-1_4{font-size: 1.4rem;}
+.fs-1_5{font-size: 1.5rem;}
+.fs-1_6{font-size: 1.6rem;}
+.fs-1_7{font-size: 1.7rem;}
+.fs-1_8{font-size: 1.8rem;}
+.fs-1_9{font-size: 1.9rem;}
+.fs-2{font-size: 2rem;}
+.fs-2_1{font-size: 2.1rem;}
+.fs-2_2{font-size: 2.2rem;}
+.fs-2_3{font-size: 2.3rem;}
+.fs-2_4{font-size: 2.4rem;}
+.fs-2_5{font-size: 2.5rem;}
+.fs-2_6{font-size: 2.6rem;}
+.fs-2_7{font-size: 2.7rem;}
+.fs-2_8{font-size: 2.8rem;}
+.fs-2_9{font-size: 2.9rem;}
+.fs-3{font-size: 3rem;}
+.fs-3_1{font-size: 3.1rem;}
+.fs-3_2{font-size: 3.2rem;}
+.fs-3_3{font-size: 3.3rem;}
+.fs-3_4{font-size: 3.4rem;}
+.fs-3_5{font-size: 3.5rem;}
+.fs-3_6{font-size: 3.6rem;}
+.fs-3_7{font-size: 3.7rem;}
+.fs-3_8{font-size: 3.8rem;}
+.fs-3_9{font-size: 3.9rem;}
+.fs-4{font-size: 4rem;}
+
+
+.container {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	align-items: center;
+	justify-content: center;
+	background-image: linear-gradient(to right bottom, #0c2b5a, #003c60, #006169, #00824d, #5a6938);
+  }
+  .box {
+	display: flex;
+	margin-top: 20px;
+  }
+  .input {
+	width: 250px;
+	height: 45px;
+	border-radius: 0 5px 5px 0;
+	outline: none;
+	border: none;
+	font-size: 16px;
+	padding: 0 10px;
+	font-family: inherit;
+  }
+  .btn {
+	border-radius: 5px 0 0 5px;
+	border: none;
+	background-color: #0d9ecf;
+	color: #fff;
+	border-right: none;
+	cursor: pointer;
+	outline: none;
+	min-width: 100px;
+	font-size: 20px;
+	font-family: inherit;
+  }
+  .result-box {
+	padding: 20px 0;
+  }
+  .resultP {
+	display: none;
+	font-size: 16px;
+	font-weight: 500;
+  }
+  
